@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: frontend-container
-          image: frontendvm
+          image: frontend
           imagePullPolicy: Never
           ports:
             - containerPort: 80 
